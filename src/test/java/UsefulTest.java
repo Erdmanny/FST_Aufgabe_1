@@ -18,8 +18,8 @@ public class UsefulTest {
         String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
         Map<String, List<CountryDataPoint>> countries = dataParser.parseJsonData(json);
 
-//        Assert.assertNotSame(countries, Collections.emptyMap());
-        Assert.assertSame(countries, Collections.emptyMap());
+//        Assert.assertNotNull(countries);
+        Assert.assertNull(countries);
     }
 
 }
