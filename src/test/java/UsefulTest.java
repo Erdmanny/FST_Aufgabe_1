@@ -19,6 +19,7 @@ public class UsefulTest {
         Map<String, List<CountryDataPoint>> countries = dataParser.parseJsonData(json);
 
 //        Assert.assertNotNull(countries);
+
         Assert.assertNull(countries);
     }
 
