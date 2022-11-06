@@ -18,9 +18,9 @@ public class UsefulTest {
         String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
         Map<String, List<CountryDataPoint>> countries = dataParser.parseJsonData(json);
 
-        Assert.assertNotNull(countries);
+//        Assert.assertNotNull(countries);
 
-//        Assert.assertNull(countries);
+        Assert.assertNull(countries);
     }
 
 }
